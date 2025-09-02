@@ -2,6 +2,17 @@
 
 This guide summarizes best practices for working with OpenAI Codex to maintain repositories and design prompts. Codex acts as a cloud-based coding agent that can read and modify your repository, run tests, and propose pull requests.
 
+## Key Context Files
+
+Codex inspects several files to understand your project before acting:
+
+- **AGENTS.md** – rules for agent behavior, build commands, and style expectations.
+- **README.md** – overview, setup notes, and usage examples that frame tasks.
+- **Build and dependency configs** (e.g., `package.json`, `.csproj`) – reveal languages, scripts, and required tools.
+- **Tests** – show expected behavior and regression safeguards.
+- **Linting and formatting configs** – enforce style and quality gates.
+- **Environment examples** (like Docker files) – document how to reproduce the setup.
+
 ## Crafting Prompts
 
 - **Be clear and specific**: Describe the exact change or question. Reference files or functions directly and include code snippets when helpful.
@@ -14,12 +25,11 @@ This guide summarizes best practices for working with OpenAI Codex to maintain r
 
 ## Preparing the Repository
 
-- **AGENTS.md**: Document project structure, build/test commands, style guides, and pull request conventions.
-- **README.md**: Provide high‑level project overview, setup instructions, and usage examples.
-- **Build and dependency files**: Ensure configuration files like `package.json`, `.csproj`, or `build.sbt` are present and accurate.
-- **Tests**: Maintain a comprehensive test suite and document how to run it.
-- **Linting and formatting**: Include configuration files and pre‑commit hooks for style enforcement.
-- **Environment setup**: Supply example configs or Docker files to replicate the development environment.
+- Keep **AGENTS.md** and **README.md** current so Codex receives accurate instructions.
+- Ensure build and dependency files reflect supported languages and scripts.
+- Maintain a comprehensive test suite and document how to run it.
+- Include linting and formatting configs plus pre‑commit hooks to enforce style.
+- Provide environment examples (Docker files, `.env` templates) to reproduce the setup.
 
 ## Delegating Tasks to Codex
 
