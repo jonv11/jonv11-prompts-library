@@ -14,9 +14,12 @@ jonv11-prompts-library/
 ├── README.md
 └── prompts/
     ├── agents/
+    │   ├── prompt-meta-prompt-generator.md
     │   ├── prompt-professional-ticket-reply.md
     │   └── prompt-task-clarification-assistant.md
     └── projects/
+        ├── prompt-concept-functional-note.md
+        ├── prompt-repo-bootstrap.md
         └── prompt-update-docs.md
 ```
 
