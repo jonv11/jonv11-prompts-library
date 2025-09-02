@@ -1,0 +1,49 @@
+# jonv11-prompts-library
+
+A structured library of reusable AI prompts for ChatGPT, Copilot, and other LLM-based agents.  
+The goal is to keep prompts organized, portable, and ready to use across coding, documentation, data analysis, creative tasks, and project management.
+
+## Structure
+
+```
+jonv11-prompts-library/
+├── README.md
+├── prompts/
+│   ├── coding/
+│   ├── data/
+│   ├── agents/
+│   ├── projects/
+│   ├── chat/
+│   └── other/
+```
+
+- **coding/**: prompts for code generation, debugging, optimization.  
+- **data/**: prompts for analysis, visualization, entity resolution, statistics.  
+- **agents/**: prompts defining AI agent roles, behaviors, workflows.  
+- **projects/**: prompts for project initiation, planning, specs, docs.  
+- **chat/**: prompts for conversational use, fact-checking, Q&A.  
+- **other/**: prompts that don’t fit the main categories.
+
+Each prompt is a standalone `.md` file with:
+- **Descriptive filename** (e.g., `prompt-code-review.md`).  
+- **Readable description** of the goal and expected output.  
+- **Clear structure** so it works in ChatGPT, Copilot, or similar.
+
+## Usage
+
+1. Browse `prompts/<category>/` for what you need.  
+2. Copy the content of the `.md` file into your AI tool (ChatGPT, Copilot, etc.).  
+3. Adapt inputs as required by the prompt.
+
+## Contribution
+
+- Keep prompts short, clear, and generic enough to be reused.  
+- Use English as default language unless the prompt specifies otherwise.  
+- Follow the naming pattern: `prompt-<keywords>.md`.  
+- Place in the correct category subfolder.  
+- Add documentation when needed.
+
+## License
+
+This repository is licensed under **CC-BY 4.0**, which means prompts can be reused and adapted with attribution.
+
