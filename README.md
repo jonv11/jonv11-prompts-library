@@ -7,22 +7,24 @@ The goal is to keep prompts organized, portable, and ready to use across coding,
 
 ```
 jonv11-prompts-library/
+├── AGENTS.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
 ├── README.md
-├── prompts/
-│   ├── coding/
-│   ├── data/
-│   ├── agents/
-│   ├── projects/
-│   ├── chat/
-│   └── other/
+└── prompts/
+    └── projects/
+        └── prompt-update-docs.md
 ```
 
-- **coding/**: prompts for code generation, debugging, optimization.  
-- **data/**: prompts for analysis, visualization, entity resolution, statistics.  
-- **agents/**: prompts defining AI agent roles, behaviors, workflows.  
-- **projects/**: prompts for project initiation, planning, specs, docs.  
-- **chat/**: prompts for conversational use, fact-checking, Q&A.  
+The library organizes prompts by category. Currently only the `projects/` folder is populated, but additional folders can be added as the library grows:
+
+- **coding/**: prompts for code generation, debugging, optimization.
+- **data/**: prompts for analysis, visualization, entity resolution, statistics.
+- **agents/**: prompts defining AI agent roles, behaviors, workflows.
+- **chat/**: prompts for conversational use, fact-checking, Q&A.
 - **other/**: prompts that don’t fit the main categories.
+- **projects/**: prompts for project initiation, planning, specs, docs.
 
 Each prompt is a standalone `.md` file with:
 - **Descriptive filename** (e.g., `prompt-code-review.md`).  
@@ -37,11 +39,13 @@ Each prompt is a standalone `.md` file with:
 
 ## Contribution
 
-- Keep prompts short, clear, and generic enough to be reused.  
-- Use English as default language unless the prompt specifies otherwise.  
-- Follow the naming pattern: `prompt-<keywords>.md`.  
-- Place in the correct category subfolder.  
+- Keep prompts short, clear, and generic enough to be reused.
+- Use English as default language unless the prompt specifies otherwise.
+- Follow the naming pattern: `prompt-<keywords>.md`.
+- Place in the correct category subfolder.
 - Add documentation when needed.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ## License
 
