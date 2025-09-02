@@ -13,11 +13,14 @@ jonv11-prompts-library/
 ├── LICENSE
 ├── README.md
 └── prompts/
+    ├── agents/
+    │   ├── prompt-professional-ticket-reply.md
+    │   └── prompt-task-clarification-assistant.md
     └── projects/
         └── prompt-update-docs.md
 ```
 
-The library organizes prompts by category. Currently only the `projects/` folder is populated, but additional folders can be added as the library grows:
+The library organizes prompts by category. Currently the `agents/` and `projects/` folders are populated, but additional folders can be added as the library grows:
 
 - **coding/**: prompts for code generation, debugging, optimization.
 - **data/**: prompts for analysis, visualization, entity resolution, statistics.
