@@ -12,6 +12,8 @@ jonv11-prompts-library/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
+├── docs/
+│   └── codex-prompt-guide.md
 └── prompts/
     ├── agents/
     │   ├── prompt-meta-prompt-generator.md
@@ -23,7 +25,7 @@ jonv11-prompts-library/
         └── prompt-update-docs.md
 ```
 
-The library organizes prompts by category. Currently the `agents/` and `projects/` folders are populated, but additional folders can be added as the library grows:
+Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/` and `projects/` folders are populated, but additional folders can be added as the library grows:
 
 - **coding/**: prompts for code generation, debugging, optimization.
 - **data/**: prompts for analysis, visualization, entity resolution, statistics.
