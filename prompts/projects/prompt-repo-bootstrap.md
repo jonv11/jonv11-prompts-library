@@ -28,39 +28,44 @@ Guide a user through bootstrapping a new GitHub repository using widely accepted
 
 ## Steps
 
-1. Clarify repository goal:
+1. Seed an empty repository:
+   - If no files exist yet, create a temporary `README.md` so Codex tasks don’t fail
+     on an empty repo.
+   - The generated bootstrap snippet may safely overwrite this file if it is the only
+     file present.
+2. Clarify repository goal:
    - Ask for short description and 2–5 scope bullets.
    - Confirm primary language/stack and visibility.
-2. Explain standard files and let the user opt in/out. For each item below, show a one-line purpose and recommended default:
-   - `README.md` (recommended): Project overview, quickstart, structure, license badge.
-   - `LICENSE` (required by choice): Legal reuse terms. Briefly explain common options:
-     - MIT: permissive, simple.
-     - Apache-2.0: permissive with patent grant.
-     - GPL-3.0: copyleft, derivative works must be GPL.
-     - BSD-3-Clause: permissive, attribution, non-endorsement.
-     - CC-BY-4.0: content/docs licensing with attribution (not ideal for code).
-     - Unlicense: public domain dedication.
-   - `CONTRIBUTING.md` (recommended for collaboration): How to propose changes, branching, commit style.
-   - `CODE_OF_CONDUCT.md` (recommended for public repos): Community expectations and reporting.
-   - `SECURITY.md` (recommended for public repos): How to report vulnerabilities; supported versions.
-   - `CHANGELOG.md` (optional but common): Human-readable changes per release; keepers: Keep a Changelog style.
-   - `.gitignore` (recommended): Language/framework ignores based on the chosen stack.
-   - `.gitattributes` (recommended): EOL normalization, linguist overrides for docs/examples.
-   - `.editorconfig` (recommended): Consistent whitespace, charset, indent size.
-   - `.github/ISSUE_TEMPLATE/bug_report.md` (optional): Standard bug intake fields.
-   - `.github/ISSUE_TEMPLATE/feature_request.md` (optional): Standard feature intake fields.
-   - `.github/PULL_REQUEST_TEMPLATE.md` (optional): Checklist and summary for PRs.
-   - `.github/workflows/ci.yml` (optional): Minimal CI template for chosen stack.
-   - `CODEOWNERS` (optional): Auto-assign reviewers.
-   - `prompts/` (optional): For prompt libraries. Add `prompts/README.md` and `.keep`.
-3. Collect run-time choices and generate a plan table: file → include? → reason.
-4. Build a Codex task snippet that creates the chosen files with appropriate content. Include path, description, and summarized content guidance for each task.
-5. Output:
+3. Explain standard files and let the user opt in/out. For each item below, show a one-line purpose and recommended default:
+    - `README.md` (recommended): Project overview, quickstart, structure, license badge.
+    - `LICENSE` (required by choice): Legal reuse terms. Briefly explain common options:
+      - MIT: permissive, simple.
+      - Apache-2.0: permissive with patent grant.
+      - GPL-3.0: copyleft, derivative works must be GPL.
+      - BSD-3-Clause: permissive, attribution, non-endorsement.
+      - CC-BY-4.0: content/docs licensing with attribution (not ideal for code).
+      - Unlicense: public domain dedication.
+    - `CONTRIBUTING.md` (recommended for collaboration): How to propose changes, branching, commit style.
+    - `CODE_OF_CONDUCT.md` (recommended for public repos): Community expectations and reporting.
+    - `SECURITY.md` (recommended for public repos): How to report vulnerabilities; supported versions.
+    - `CHANGELOG.md` (optional but common): Human-readable changes per release; keepers: Keep a Changelog style.
+    - `.gitignore` (recommended): Language/framework ignores based on the chosen stack.
+    - `.gitattributes` (recommended): EOL normalization, linguist overrides for docs/examples.
+    - `.editorconfig` (recommended): Consistent whitespace, charset, indent size.
+    - `.github/ISSUE_TEMPLATE/bug_report.md` (optional): Standard bug intake fields.
+    - `.github/ISSUE_TEMPLATE/feature_request.md` (optional): Standard feature intake fields.
+    - `.github/PULL_REQUEST_TEMPLATE.md` (optional): Checklist and summary for PRs.
+    - `.github/workflows/ci.yml` (optional): Minimal CI template for chosen stack.
+    - `CODEOWNERS` (optional): Auto-assign reviewers.
+    - `prompts/` (optional): For prompt libraries. Add `prompts/README.md` and `.keep`.
+4. Collect run-time choices and generate a plan table: file → include? → reason.
+5. Build a Codex task snippet that creates the chosen files with appropriate content. Include path, description, and summarized content guidance for each task.
+6. Output:
    - A tree view of files to add.
    - Codex task snippet.
    - Suggested commit messages.
    - Next steps checklist.
-6. Validate with the checklist below before final answer.
+7. Validate with the checklist below before final answer.
 
 ## Output
 
@@ -91,6 +96,9 @@ Guide a user through bootstrapping a new GitHub repository using widely accepted
 - Prefer official GitHub templates where applicable.
 - Keep texts concise and professional.
 - Do not add niche or organization-specific files by default.
+- For brand-new repositories, create and commit a placeholder `README.md` before
+  running Codex tasks. The bootstrap snippet may replace it if `README.md` is the
+  only existing file.
 
 ## Validation Checklist
 
