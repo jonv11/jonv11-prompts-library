@@ -1,7 +1,14 @@
+<!-- Licensed under CC-BY 4.0. -->
+
 # Monthly Maintenance Checklist
 
-First complete the **Weekly Maintenance Checklist**. In addition, perform these monthly or quarterly tasks:
+## Purpose
+Supplement weekly maintenance with monthly or quarterly tasks.
 
+## Prerequisite
+Complete the **Weekly Maintenance Checklist** first.
+
+## Steps
 - Architecture review; update ADRs and diagrams; examine the dependency graph for tangles.
 - Remove dead code and unused modules; plan deprecations; audit public API surface.
 - Capture performance baselines and detect regressions on key paths.
@@ -11,3 +18,17 @@ First complete the **Weekly Maintenance Checklist**. In addition, perform these 
 - Review access: tokens, keys, secret rotation, least-privilege policies.
 - Confirm ownership accuracy: `CODEOWNERS`, runbooks, on-call docs.
 - Ensure cross-repo consistency: PR/issue templates, commit message rules, branching model.
+
+## Output
+- Notes on each task performed and any follow-up actions.
+
+## Acceptance Criteria
+- Every listed task reviewed and addressed.
+- Findings and follow-ups documented.
+
+## Validation Checklist
+- [ ] Architecture and dependency graph reviewed.
+- [ ] Dead code removed or deprecations planned.
+- [ ] Supply chain and license checks completed.
+- [ ] Configuration, access, and ownership verified.
+- [ ] Cross-repo templates and rules aligned.
