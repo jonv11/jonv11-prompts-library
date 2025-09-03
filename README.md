@@ -23,7 +23,8 @@ jonv11-prompts-library/
     └── projects/
         ├── prompt-concept-functional-note.md
         ├── prompt-repo-bootstrap.md
-        └── prompt-update-docs.md
+        ├── prompt-update-docs.md
+        └── prompt-epic-to-tasks.md
 ```
 
 Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/` and `projects/` folders are populated, but additional folders can be added as the library grows:
