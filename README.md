@@ -20,6 +20,8 @@ jonv11-prompts-library/
     │   ├── prompt-professional-ticket-reply.md
     │   ├── prompt-task-clarification-assistant.md
     │   └── prompt-ticket-readiness-reviewer-for-codex.md
+    ├── project-management/
+    │   └── prompt-jira-ticket-assistant.md
     └── projects/
         ├── prompt-concept-functional-note.md
         ├── prompt-repo-bootstrap.md
@@ -34,6 +36,7 @@ Additional documentation lives under `docs/`. The library organizes prompts by c
 - **agents/**: prompts defining AI agent roles, behaviors, workflows.
 - **chat/**: prompts for conversational use, fact-checking, Q&A.
 - **other/**: prompts that don’t fit the main categories.
+- **project-management/**: [prompt-jira-ticket-assistant.md](prompts/project-management/prompt-jira-ticket-assistant.md) – prompts for Jira ticketing and project tracking.
 - **projects/**: prompts for project initiation, planning, specs, docs.
 
 Each prompt is a standalone `.md` file with:
