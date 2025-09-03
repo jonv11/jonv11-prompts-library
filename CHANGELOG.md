@@ -12,3 +12,4 @@ All notable changes to this project are documented in this file.
 - Clarified repository bootstrap prompt to handle empty repos with a temporary README.
 - Added ticket readiness reviewer for Codex prompt under `prompts/agents/`.
 - Consolidated project prompts under `prompts/project-management/` for clearer category structure.
+- Added RFC feedback reviewer prompt under `prompts/project-management/`.
