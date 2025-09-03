@@ -10,3 +10,4 @@ All notable changes to this project are documented in this file.
 - Established initial project structure and README.
 - Added professional ticket reply assistant prompt under `prompts/agents/` and updated README structure.
 - Clarified repository bootstrap prompt to handle empty repos with a temporary README.
+- Added ticket readiness reviewer for Codex prompt under `prompts/agents/`.
