@@ -70,3 +70,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 This repository is licensed under **CC-BY 4.0**, which means prompts can be reused and adapted with attribution.
 
+
+## Documentation
+- Guide to Creating Effective Prompts: docs/guides/guide-effective-prompts.md
