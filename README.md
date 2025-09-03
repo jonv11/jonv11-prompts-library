@@ -20,24 +20,22 @@ jonv11-prompts-library/
     │   ├── prompt-professional-ticket-reply.md
     │   ├── prompt-task-clarification-assistant.md
     │   └── prompt-ticket-readiness-reviewer-for-codex.md
-    ├── project-management/
-    │   └── prompt-jira-ticket-assistant.md
-    └── projects/
+    └── project-management/
         ├── prompt-concept-functional-note.md
+        ├── prompt-epic-to-tasks.md
+        ├── prompt-jira-ticket-assistant.md
         ├── prompt-repo-bootstrap.md
-        ├── prompt-update-docs.md
-        └── prompt-epic-to-tasks.md
+        └── prompt-update-docs.md
 ```
 
-Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/` and `projects/` folders are populated, but additional folders can be added as the library grows:
+Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/` and `project-management/` folders are populated, but additional folders can be added as the library grows:
 
 - **coding/**: prompts for code generation, debugging, optimization.
 - **data/**: prompts for analysis, visualization, entity resolution, statistics.
 - **agents/**: prompts defining AI agent roles, behaviors, workflows.
 - **chat/**: prompts for conversational use, fact-checking, Q&A.
 - **other/**: prompts that don’t fit the main categories.
-- **project-management/**: [prompt-jira-ticket-assistant.md](prompts/project-management/prompt-jira-ticket-assistant.md) – prompts for Jira ticketing and project tracking.
-- **projects/**: prompts for project initiation, planning, specs, docs.
+- **project-management/**: prompts for project initiation, planning, ticketing, and documentation (e.g., `prompt-jira-ticket-assistant.md`).
 
 Each prompt is a standalone `.md` file with:
 - **Descriptive filename** (e.g., `prompt-code-review.md`).  
