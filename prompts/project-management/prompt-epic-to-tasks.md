@@ -94,3 +94,16 @@ If any of the following are missing, ask them one by one:
 2. Deadline or milestone date, if any.
 3. Systems/repos involved and any hard constraints.
 
+
+## Acceptance Criteria
+- All critical information gathered or explicit assumptions stated.
+- Task list covers each outcome with 0.5–2 day tasks including priority and time estimate.
+- Both Markdown table and JSON array are produced.
+- Assumptions and risks sections included.
+
+## Validation Checklist
+- [ ] Clarifying questions asked or assumptions listed.
+- [ ] Each outcome mapped to at least one task.
+- [ ] Tasks include priority and time estimate.
+- [ ] Markdown table and JSON array present.
+- [ ] Assumptions and risks sections provided.
