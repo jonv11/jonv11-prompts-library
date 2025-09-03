@@ -20,16 +20,22 @@ jonv11-prompts-library/
     │   ├── prompt-professional-ticket-reply.md
     │   ├── prompt-task-clarification-assistant.md
     │   └── prompt-ticket-readiness-reviewer-for-codex.md
-    └── project-management/
-        ├── prompt-concept-functional-note.md
-        ├── prompt-epic-to-tasks.md
-        ├── prompt-jira-ticket-assistant.md
-        ├── prompt-repo-bootstrap.md
-        ├── prompt-rfc-feedback.md
-        └── prompt-update-docs.md
+    ├── project-management/
+    │   ├── prompt-concept-functional-note.md
+    │   ├── prompt-epic-to-tasks.md
+    │   ├── prompt-jira-ticket-assistant.md
+    │   ├── prompt-repo-bootstrap.md
+    │   ├── prompt-rfc-feedback.md
+    │   └── prompt-update-docs.md
+    └── tasks/
+        ├── prompt-tasks-weekly-maintenance.md
+        ├── prompt-tasks-monthly-maintenance.md
+        ├── prompt-tasks-release-checklist.md
+        ├── prompt-tasks-occasional-review.md
+        └── prompt-tasks-comprehensive-maintenance.md
 ```
 
-Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/` and `project-management/` folders are populated, but additional folders can be added as the library grows:
+Additional documentation lives under `docs/`. The library organizes prompts by category. Currently the `agents/`, `project-management/`, and `tasks/` folders are populated, but additional folders can be added as the library grows:
 
 - **coding/**: prompts for code generation, debugging, optimization.
 - **data/**: prompts for analysis, visualization, entity resolution, statistics.
@@ -37,6 +43,7 @@ Additional documentation lives under `docs/`. The library organizes prompts by c
 - **chat/**: prompts for conversational use, fact-checking, Q&A.
 - **other/**: prompts that don’t fit the main categories.
 - **project-management/**: prompts for project initiation, planning, ticketing, and documentation (e.g., `prompt-jira-ticket-assistant.md`).
+- **tasks/**: prompts for recurring maintenance, release prep, and audit checklists.
 
 Each prompt is a standalone `.md` file with:
 - **Descriptive filename** (e.g., `prompt-code-review.md`).  
