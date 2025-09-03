@@ -18,7 +18,8 @@ jonv11-prompts-library/
     ├── agents/
     │   ├── prompt-meta-prompt-generator.md
     │   ├── prompt-professional-ticket-reply.md
-    │   └── prompt-task-clarification-assistant.md
+    │   ├── prompt-task-clarification-assistant.md
+    │   └── prompt-ticket-readiness-reviewer-for-codex.md
     └── projects/
         ├── prompt-concept-functional-note.md
         ├── prompt-repo-bootstrap.md
