@@ -35,7 +35,7 @@ The agent may take on the following roles:
 
 1. Use `prompt-<keywords>.md` as filename convention.  
 2. Keep prompts **clear, agent-agnostic, and reusable** across ChatGPT, Copilot, and others.  
-3. Place prompts in the correct category folder (`coding/`, `data/`, `agents/`, `projects/`, `chat/`, `other/`).  
+3. Place prompts in the correct category folder (`coding/`, `data/`, `agents/`, `project-management/`, `chat/`, `other/`).
 4. Write short explanatory headers inside each prompt when needed.  
 5. Ensure no duplication across categories.
 

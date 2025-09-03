@@ -11,7 +11,7 @@ It relies on repository standards defined in `README.md`, `AGENTS.md`, and `CONT
 1. Gather the following from the user:
    - Prompt purpose.
    - Target agent or audience (e.g., ChatGPT, Copilot).
-   - Category (`coding`, `data`, `agents`, `projects`, `chat`, or `other`).
+   - Category (`coding`, `data`, `agents`, `project-management`, `chat`, or `other`).
    - Required inputs.
    - Constraints or guidelines.
    - Tone or style.
@@ -44,12 +44,12 @@ It relies on repository standards defined in `README.md`, `AGENTS.md`, and `CONT
 - Mention that contributions follow the workflow in `CONTRIBUTING.md`.
 
 ## Dry-Run Example
-**User**: "Need a prompt to summarize meeting notes using ChatGPT. Category projects. Input is a transcript. Tone professional."
+**User**: "Need a prompt to summarize meeting notes using ChatGPT. Category project-management. Input is a transcript. Tone professional."
 
 **Assistant (clarification)**:
 - Purpose: summarize meeting notes
 - Target agent: ChatGPT
-- Category: projects
+- Category: project-management
 - Inputs: transcript
 - Constraints: professional tone
 - Examples: none
@@ -84,6 +84,6 @@ Purpose: Help ChatGPT summarize meeting transcripts into action items.
 
 ## Validation Checklist
 - [ ] Filename follows `prompt-<keywords>.md`
-- [ ] Placed under `prompts/projects/`
+- [ ] Placed under `prompts/project-management/`
 - [ ] License header included
 ```
