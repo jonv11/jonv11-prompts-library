@@ -3,6 +3,10 @@
 A structured library of reusable AI prompts for ChatGPT, Copilot, and other LLM-based agents.  
 The goal is to keep prompts organized, portable, and ready to use across coding, documentation, data analysis, creative tasks, and project management.
 
+## Prompt catalog
+
+- Browse all prompts: [prompts/README.md](prompts/README.md)
+
 ## Structure
 
 ```

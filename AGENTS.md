@@ -39,6 +39,16 @@ The agent may take on the following roles:
 4. Write short explanatory headers inside each prompt when needed.  
 5. Ensure no duplication across categories.
 
+## When an agent creates or edits prompts
+
+- After writing to prompts/, update:
+  - prompts/README.md
+  - the matching category README.md
+- Ensure Title, Goal, and Path follow the catalog rules.
+- Keep alphabetical order by Title.
+- Include catalog updates in the same commit as the prompt changes.
+- If the agent cannot determine a clear Goal from the prompt body, write a temporary one-liner and open a follow-up task for the author to refine it.
+
 ## Example Task Workflow
 
 1. User requests a new prompt for data analysis.  
