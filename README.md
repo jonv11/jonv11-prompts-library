@@ -16,6 +16,7 @@ jonv11-prompts-library/
 │   └── codex-prompt-guide.md
 └── prompts/
     ├── agents/
+    │   ├── prompt-convention-harvesting-and-documentation-assistant.md
     │   ├── prompt-meta-prompt-generator.md
     │   ├── prompt-professional-ticket-reply.md
     │   ├── prompt-task-clarification-assistant.md

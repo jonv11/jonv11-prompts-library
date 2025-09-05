@@ -3,6 +3,7 @@
 All notable changes to this project are documented in this file.
 
 ## Unreleased
+- Added convention harvesting and documentation assistant prompt under `prompts/agents/` and updated README structure.
 - Added maintenance task prompts under `prompts/tasks/` and updated README.
 - Added concept functional note assistant prompt under `prompts/project-management/`.
 - Refined validation checklist for concept functional note assistant prompt (note provided as downloadable Markdown with descriptive filename).
