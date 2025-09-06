@@ -23,6 +23,12 @@ Canonical index of prompts. Per-category indexes live in subfolders.
 | [RFC Feedback Reviewer](project-management/prompt-rfc-feedback.md) | Provide structured, constructive feedback on Request for Comments (RFC) documents. | project-management/prompt-rfc-feedback.md |
 | [Update Repository Documentation](project-management/prompt-update-docs.md) | Ensure Markdown documentation reflects the repository's current state. | project-management/prompt-update-docs.md |
 
+## Review
+
+| Title | Goal | Path |
+| --- | --- | --- |
+| [Critical Project Advisor](review/prompt-critical-project-advisor.md) | Critical & constructive adviser for software projects; outputs strengths, weaknesses, prioritized recommendations. | review/prompt-critical-project-advisor.md |
+
 ## Tasks
 
 | Title | Goal | Path |

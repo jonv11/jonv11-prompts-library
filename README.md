@@ -6,6 +6,7 @@ The goal is to keep prompts organized, portable, and ready to use across coding,
 ## Prompt catalog
 
 - Browse all prompts: [prompts/README.md](prompts/README.md)
+- review / prompt-critical-project-advisor.md — Critical & constructive adviser for software projects; outputs strengths, weaknesses, prioritized recommendations.
 
 ## Structure
 
@@ -32,6 +33,8 @@ jonv11-prompts-library/
     │   ├── prompt-repo-bootstrap.md
     │   ├── prompt-rfc-feedback.md
     │   └── prompt-update-docs.md
+    ├── review/
+    │   └── prompt-critical-project-advisor.md
     └── tasks/
         ├── prompt-tasks-weekly-maintenance.md
         ├── prompt-tasks-monthly-maintenance.md
@@ -48,6 +51,7 @@ Additional documentation lives under `docs/`. The library organizes prompts by c
 - **chat/**: prompts for conversational use, fact-checking, Q&A.
 - **other/**: prompts that don’t fit the main categories.
 - **project-management/**: prompts for project initiation, planning, ticketing, and documentation (e.g., `prompt-jira-ticket-assistant.md`).
+- **review/**: prompts for critical review and constructive advice on software projects.
 - **tasks/**: prompts for recurring maintenance, release prep, and audit checklists.
 
 Each prompt is a standalone `.md` file with:
